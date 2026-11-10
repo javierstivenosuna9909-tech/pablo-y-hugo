@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;650;700&display=swap');
+
+:root {
+  --ink: #163028;
+  --ink-soft: #25453a;
+  --muted: #5b6f66;
+  --line: #c5d2cb;
+  --surface: rgba(247, 250, 248, 0.88);
+  --chip: #e4eee8;
+  --accent: #1f6f54;
+  --accent-strong: #155541;
+  --bg-1: #dfece4;
+  --bg-2: #f3f7f4;
+  --bg-3: #c9ddd2;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--ink);
+  background: var(--bg-2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(ellipse 80% 55% at 12% -10%, rgba(31, 111, 84, 0.16), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 100% 0%, rgba(90, 120, 100, 0.18), transparent 50%),
+    linear-gradient(165deg, var(--bg-1), var(--bg-2) 42%, var(--bg-3));
+  background-attachment: fixed;
+}
+
+button,
+input {
+  font: inherit;
+}
